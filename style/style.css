@@ -12,6 +12,20 @@ body {
     color: #ff42a5;
 }
 
+.btn-primary {
+    border-radius: 3rem;
+    background: #ff42a5;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.25rem 2.5rem;
+    border: 0;
+}
+
+.btn-color {
+    background-color: #4EC5F7;
+}
+
 /* Header Styles */
 /* Nav Styles */
 .nav-container {
@@ -81,8 +95,66 @@ nav {
     font-weight: 500;
 }
 
-svg {
+.svg {
     padding: 1rem 1rem 1rem 0;
+}
+
+/* Banner Styles */
+.banner {
+    width: 88%;
+    height: 43.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-contents {
+    width: 53.63%;
+    height: 43.75rem;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+}
+
+.banner-content-texts {
+    margin: 9.25rem 0 9.25rem 16rem;
+}
+
+.banner-content-heading {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-content-title {
+    font-size: 5.9375rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.banner-icons {
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+.banner-icons li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-image {
+    width: 46.37%;
+    height: auto;
+}
+
+.banner-image img {
+    width: calc(100% - 4.25rem);
+    height: 43.75em;
+    padding-left: 4.25rem;
 }
 
 /* Responsive Styles */
