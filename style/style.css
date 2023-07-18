@@ -14,7 +14,7 @@ body {
 
 /* Header Styles */
 /* Nav Styles */
-#header {
+.nav-container {
     background: #FFF;
     width: 100%;
     height: 8.12rem;
@@ -34,6 +34,12 @@ nav {
     height: 2.5rem;
     width: 5.4rem;
     margin-right: 1.25rem;
+}
+
+.nav-title-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
 .nav-logo-text {
@@ -77,4 +83,34 @@ nav {
 
 svg {
     padding: 1rem 1rem 1rem 0;
+}
+
+/* Responsive Styles */
+/* For Small Devices */
+@media screen and (max-width:576px) {
+    .nav-container {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    nav {
+        margin-top: 6rem;
+        height: auto;
+        flex-direction: column;
+        gap: 3.8rem;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        gap: 2.25rem;
+        margin-bottom: 3.8rem;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+
 }
