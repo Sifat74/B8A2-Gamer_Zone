@@ -211,6 +211,74 @@ main {
 .card-img {
     width: 21.25rem;
     height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.card-hover-content {
+    display: none;
+}
+
+.card-hover-content p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff42a5;
+    margin-top: 16px;
+}
+
+.img-1 {
+    background: url('../images/Rectangle\ 4.png');
+}
+
+.img-1:hover {
+    border: 5px solid #ff42a5;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+}
+
+.img-1:hover .card-hover-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 {
+    background: url('../images/Rectangle\ 5.png');
+}
+
+.img-2:hover {
+    border: 5px solid #ff42a5;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+}
+
+.img-2:hover .card-hover-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-3 {
+    background: url('../images/Rectangle\ 6.png');
+}
+
+.img-3:hover {
+    border: 5px solid #ff42a5;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+
+.img-3:hover .card-hover-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-text {
