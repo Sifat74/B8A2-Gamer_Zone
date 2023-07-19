@@ -112,6 +112,7 @@ nav {
     height: 43.75rem;
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-content-texts {
@@ -155,6 +156,7 @@ nav {
     width: calc(100% - 4.25rem);
     height: 43.75em;
     padding-left: 4.25rem;
+    object-fit: cover;
 }
 
 /* Responsive Styles */
@@ -198,4 +200,12 @@ nav {
         flex-direction: column;
         gap: 3.8rem;
     }
+}
+
+/* For large device */
+@media screen and (min-width:960px) and (max-width:1440px) {
+    html {
+        font-size: 12px;
+    }
+
 }
