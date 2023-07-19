@@ -159,6 +159,67 @@ nav {
     object-fit: cover;
 }
 
+/* Main section */
+main {
+    margin-top: 120px;
+}
+
+/* Online games section */
+.online-games {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 7.5rem;
+}
+
+.online-games-text {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.online-games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-subtitle {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.online-games-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 21.25rem;
+}
+
+.card-img {
+    width: 21.25rem;
+    height: 25rem;
+}
+
+.card-text {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+}
+
 /* Responsive Styles */
 /* For Small Devices */
 @media screen and (max-width:576px) {
@@ -186,6 +247,7 @@ nav {
         flex-direction: column;
     }
 
+    /* Banner Styles */
     .banner {
         width: 100%;
         height: auto;
@@ -263,6 +325,7 @@ nav {
         gap: 3.8rem;
     }
 
+    /* Banner Styles */
     .banner {
         width: 100%;
         height: auto;
@@ -311,6 +374,8 @@ nav {
 
 /* For large device */
 @media screen and (min-width:960px) and (max-width:1024px) {
+
+    /* Banner Styles */
     .banner {
         width: 100%;
         height: auto;
